@@ -1,0 +1,38 @@
+{
+  "name": "geetest-proxy",
+  "version": "0.0.0",
+  "description": "subscribable Geetest-js-sdk wrapper",
+  "main": "src",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imyelo/geetest-proxy.git"
+  },
+  "keywords": [
+    "geetest",
+    "event",
+    "subpub"
+  ],
+  "author": "yelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imyelo/geetest-proxy/issues"
+  },
+  "homepage": "https://github.com/imyelo/geetest-proxy#readme",
+  "dependencies": {
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-serve": "^1.2.0",
+    "run-sequence": "^1.1.4",
+    "through2": "^2.0.0"
+  }
+}
